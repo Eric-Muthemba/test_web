@@ -36,7 +36,5 @@ def sms_(Nmbr,password):
         message = " Your credentials have been registered and betting started "
         sms.send(message, number, callback=on_finish)
 
-
-
 if __name__ == '__main__':
     app.run()
